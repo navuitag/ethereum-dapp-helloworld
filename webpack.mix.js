@@ -12,8 +12,8 @@ let mix = require('webpack-mix').mix;
  */
 
 mix.setPublicPath('./')
-   .js('src/assets/js/app.js', 'src/js/')
-   .sass('src/assets/scss/app.scss', 'src/css/')
+   .js('src/assets/js/app.js', 'public/js/')
+   .sass('src/assets/scss/app.scss', 'public/css/')
    .sourceMaps()
    .version();
 

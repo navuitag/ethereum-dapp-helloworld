@@ -54,7 +54,7 @@ App = {
         App.contracts.HelloWorld.deployed().then(function(instance) {
             return instance.message();
         }).then(function(message) {
-            $('#accountAddress').html(message);
+            $('#helloWorld').html(message);
         }).catch(function(err) {
             console.warn(err);
         });
